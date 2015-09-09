@@ -1,0 +1,44 @@
+#kezdolap {
+	height:100%;
+	background-color:blue;
+}
+
+#rolam{
+	height:25%;
+	background-color:yellow;
+}
+
+.home-text{
+	text-align:center;
+	margin-top:17em;
+}
+.home-text h1{
+	color:white;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+.home-text h3{
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.rolam-text h1{
+	padding-top:15px;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+}
+.rolam-text p{
+	font-family:Cambria, Georgia, serif;
+	text-align:center;
+	}
+	
+.rolam-text{
+	margin-right:5em;
+}
+
+.row{
+	height:50%;
+	background-color:purple;
+	text-align:center;
+}
+
