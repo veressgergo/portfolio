@@ -1,25 +1,28 @@
+/*Kezdőlap*/
 #kezdolap {
 	height:100%;
 	background-color:blue;
 }
 
-#rolam{
-	height:25%;
-	background-color:yellow;
-}
-
-.home-text{
+.kezdolap-text{
 	text-align:center;
-	margin-top:17em;
+	margin-top:25%;
 }
-.home-text h1{
+.kezdolap-text h1{
 	color:white;
 	font-family:"Arial Black", Gadget, sans-serif;
 }
 
-.home-text h3{
+.kezdolap-text h3{
 	color:white;
 	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+/*Kezdőlap End*/
+
+/*Rólam*/
+#rolam{
+	height:25%;
+	background-color:yellow;
 }
 
 .rolam-text h1{
@@ -35,10 +38,37 @@
 .rolam-text{
 	margin-right:5em;
 }
+/*Rólam End*/
 
+/*Képességek*/
 .row{
 	height:50%;
-	background-color:purple;
+	background-color:white;
 	text-align:center;
+	line-height:40px;
+	}
+
+.row h2 {
+	color:black;
+	text-decoration:underline;
+	font-size:35px;
+	font-family: 'Slabo 27px', serif;
+	}
+	
+.row p {
+	font-size:17px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	}
+
+#fejlesztes h2 {
+	color:blue;
 }
 
+#design h2{
+	color:green;
+}
+
+#rendszerek h2{
+	color:red;
+}
+/*Képességek End*/
