@@ -1,7 +1,27 @@
+/*Navbar*/
+ .navbar-default{
+	background-color:#2070bc;
+	background-image:none;
+	border:none;
+	}
+	
+.navbar .nav li a {
+	color:white;
+	font-family:font-family: 'Josefin Sans', sans-serif;
+	}
+
+.navbar .nav li a:hover{
+	color:black;
+}
+
+/*Navbar End*/
+
 /*Kezdőlap*/
 #kezdolap {
 	height:100%;
-	background-color:blue;
+	background-image:url(../img/budapestwallpapereffected.jpg);
+	background-repeat:no-repeat;
+	background-position:right top;
 }
 
 .kezdolap-text{
@@ -10,35 +30,16 @@
 }
 .kezdolap-text h1{
 	color:white;
-	font-family:"Arial Black", Gadget, sans-serif;
+	font-family: 'Arvo', serif;
+	font-size:54px;
 }
 
 .kezdolap-text h3{
 	color:white;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:32px;
 }
 /*Kezdőlap End*/
-
-/*Rólam*/
-#rolam{
-	height:25%;
-	background-color:yellow;
-}
-
-.rolam-text h1{
-	padding-top:15px;
-	font-family:"Courier New", Courier, monospace;
-	text-align:center;
-}
-.rolam-text p{
-	font-family:Cambria, Georgia, serif;
-	text-align:center;
-	}
-	
-.rolam-text{
-	margin-right:5em;
-}
-/*Rólam End*/
 
 /*Képességek*/
 .row{
