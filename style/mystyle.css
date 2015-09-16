@@ -1,3 +1,4 @@
+body {padding-top:50px;}
 /*Navbar*/
  .navbar-default{
 	background-color:#2070bc;
@@ -16,30 +17,28 @@
 
 /*Navbar End*/
 
-/*Kezdőlap*/
-#kezdolap {
-	height:100%;
+/*Jumbotron*/
+.jumbotron{
 	background-image:url(../img/budapestwallpapereffected.jpg);
+	height:100%;
 	background-repeat:no-repeat;
-	background-position:right top;
-}
-
-.kezdolap-text{
 	text-align:center;
-	margin-top:25%;
-}
-.kezdolap-text h1{
+	
+	}
+
+.jumbotron h1{
+	padding-top:15%;
 	color:white;
 	font-family: 'Arvo', serif;
 	font-size:54px;
 }
 
-.kezdolap-text h3{
+.jumbotron p{
 	color:white;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:32px;
 }
-/*Kezdőlap End*/
+/*jumbotron End*/
 
 /*Képességek*/
 .row{
